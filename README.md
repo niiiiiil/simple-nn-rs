@@ -1,5 +1,5 @@
 # simple-nn-rs
-a simple neural network implementation in rust, use macro to derive layers
+a simple neural network implementation in rust, using macro to derive layers
 
 ## usage
 
