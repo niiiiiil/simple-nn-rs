@@ -1,0 +1,16 @@
+[package]
+name = "simple-nn"
+description = "a simple neural network implementation"
+version = "0.1.0"
+edition = "2018"
+
+[workspace]
+members = [
+    "./macros"
+]
+
+[dependencies]
+na = { package = "nalgebra", version = "0.29.0"}
+nn-macros = { path = "./macros" }
+itertools = "0.10.1"
+rand = "0.8.4"
